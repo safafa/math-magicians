@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Prerequisites
 
-Knowledge of HTML Semantics CSS And Javascript
+Knowledge of React library And Javascript
 npm
 
 # Getting Started
