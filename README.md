@@ -1,6 +1,6 @@
-# Math-magicians Project SETUP
+# Math-magicians 
 
-Math-magicians is a React web application that allows users to do math operations. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Math-magicians is a React SPA that allows users to do simple math operations and read a random math-related quote. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Prerequisites
 
