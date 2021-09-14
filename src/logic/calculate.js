@@ -75,11 +75,19 @@ export default function calculate(obj, buttonName) {
 
   if (buttonName === '=') {
     if (obj.next && obj.operation) {
-      return {
-        total: operate(obj.total, obj.next, obj.operation),
-        next: null,
-        operation: null,
-      };
+      try {
+        return {
+          total: operate(obj.total, obj.next, obj.operation),
+          next: null,
+          operation: null,
+        };
+      } catch {
+        return {
+          total: 'Error',
+          next: null,
+          operation: null,
+        };
+      }
     }
     // '=' with no operation, nothing to do
     return {};
