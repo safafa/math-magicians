@@ -2,7 +2,7 @@
 
 Math-magicians is a React SPA that allows users to do simple math operations and read a random math-related quote. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://user-images.githubusercontent.com/43698511/133305029-0d454625-ca95-4291-ba43-da54e5033872.png)
+![image](https://user-images.githubusercontent.com/43698511/133319359-23633027-9c34-4b98-addd-9ed3dc1d304a.png)
 
 ### Prerequisites
 
