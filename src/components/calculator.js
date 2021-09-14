@@ -5,7 +5,7 @@ export default class Calculator extends react.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: null,
+      total: 0,
       next: null,
       operation: null,
     };
@@ -23,7 +23,11 @@ export default class Calculator extends react.Component {
     const verticalSymbols = ['÷', 'x', '-', '+', '='].map((symbol) => <button type="button" key={symbol} className="cornerButton" name={symbol} onClick={this.handleEvent}>{symbol}</button>);
     return (
       <div className="calculator">
-        <p className="screen">{this.state.total}</p>
+        <p className="screen">
+          <span>{this.state.total}</span>
+          <span>{this.state.operation}</span>
+          <span>{this.state.next}</span>
+        </p>
         <div className="buttons">
           <div className="vertical">{verticalSymbols}</div>
           <div className="inner-container">
