@@ -22,11 +22,12 @@
 .inner-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-template-rows: auto min-content;
   width: 85%;
 }
 
-#13 {
-  grid-column: 2 / 3;
+#dot {
+  grid-column: 2 / 4;
 }
 
 .cornerButton {
