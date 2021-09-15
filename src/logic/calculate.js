@@ -121,7 +121,7 @@ export default function calculate(obj, buttonName) {
       };
     } catch {
       return {
-        total: 'Error',
+        total: obj.total,
         next: null,
         operation: buttonName,
       };
