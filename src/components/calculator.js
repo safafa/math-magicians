@@ -18,7 +18,7 @@ const Calculator = () => {
   const numbers = ['AC', '+/-', '%', 9, 8, 7, 6, 5, 4, 3, 2, 1].map((number) => <button type="button" key={number} className="innerButton" id={number} name={number} onClick={handleClick}>{number}</button>);
   const verticalSymbols = ['÷', 'x', '-', '+', '='].map((symbol) => <button type="button" key={symbol} className="cornerButton" name={symbol} onClick={handleClick}>{symbol}</button>);
   return (
-    <section>
+    <section className="calculator-section">
       <h1> Let&#39;s do some math!</h1>
       <div className="calculator">
         <p className="screen">
