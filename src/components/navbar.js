@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
+    <span>
+      <a href="/" className="NavLogo">Math Magicians</a>
+    </span>
     <ul>
       <li>
         <Link to="/">Home</Link>
