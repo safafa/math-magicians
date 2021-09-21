@@ -1,7 +1,7 @@
 .calculator {
-  width: 25%;
+  width: 35%;
   margin: auto;
-  padding: 10% 0;
+  align-self: flex-end;
 }
 
 .screen {
@@ -25,12 +25,11 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: 15%;
-  background-color: aqua;
 }
 
 .cornerButton {
   height: 20%;
-  background-color: #f5913e;
+  background-color: #f48c06;
   border-width: 1px;
 }
 
@@ -42,7 +41,7 @@
 }
 
 .innerButton {
-  background-color: #e0e0e0;
+  background-color: #e9d8a6;
   border-width: 1px;
 }
 
