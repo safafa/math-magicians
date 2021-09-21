@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/quote.css';
 
 const Quote = () => (
   <section>
