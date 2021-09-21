@@ -2,7 +2,9 @@
 
 Math-magicians is a React SPA that allows users to do simple math operations and read a random math-related quote. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://user-images.githubusercontent.com/43698511/133319359-23633027-9c34-4b98-addd-9ed3dc1d304a.png)
+![image](https://user-images.githubusercontent.com/43698511/134253547-6d093a2a-71eb-4e7e-af5f-9d968ccc5790.png)
+![image](https://user-images.githubusercontent.com/43698511/134253576-f6403c20-622a-4d56-98be-23442bbc3ef0.png)
+
 
 ### Prerequisites
 
@@ -34,8 +36,7 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Live Demo
-
-Not deployed yet
+[Live link](https://safafa.github.io/math-magicians/)
 
 ## Author
 
