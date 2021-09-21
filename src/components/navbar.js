@@ -1,20 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import '../css/navbar.css';
 
 const Navbar = () => (
-  <nav>
+  <nav className="navbar">
     <span>
       <a href="/" className="NavLogo">Math Magicians</a>
     </span>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink to="/" className="nav-link" activeClassName="active-link" exact>Home</NavLink>
       </li>
       <li>
-        <Link to="/calculator">Calculator</Link>
+        <NavLink to="/calculator" className="nav-link" activeClassName="active-link" exact>Calculator</NavLink>
       </li>
       <li>
-        <Link to="/quote">Quote</Link>
+        <NavLink to="/quote" className="nav-link" activeClassName="active-link" exact>Quote</NavLink>
       </li>
     </ul>
   </nav>
