@@ -1,4 +1,5 @@
 import operate from '../logic/operate';
+import calculate from '../logic/calculate';
 
 describe('operate function', () => {
   test('addition', () => {
@@ -19,5 +20,17 @@ describe('operate function', () => {
 
   test('modulating', () => {
     expect(operate(4, 2, '%')).toBe('0');
+  });
+});
+
+describe('Calculate function', () => {
+  const obj = {
+    total: 0,
+    next: null,
+    operation: null,
+  };
+
+  test('Clearing the screen', () => {
+    expect({ ...calculate(obj, 'AC') }).toEqual({ total: 0, next: null, operation: null });
   });
 });
