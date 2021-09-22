@@ -37,4 +37,8 @@ describe('Calculate function', () => {
   test('total the number', () => {
     expect(calculate(obj, '=')).toEqual({ total: '20', next: null, operation: null });
   });
+
+  test('two zeros', () => {
+    expect(calculate({ total: '20', next: '0', operation: null }, '0')).toEqual({});
+  });
 });
