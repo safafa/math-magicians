@@ -1,5 +1,218 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Component test snapshot Calculator renders correctly 1`] = `
+<section
+  className="calculator-section"
+>
+  <h1>
+     Let's do some math!
+  </h1>
+  <div
+    className="calculator"
+  >
+    <p
+      className="screen"
+    >
+      <span>
+        0
+      </span>
+      <span />
+      <span />
+    </p>
+    <div
+      className="buttons"
+    >
+      <div
+        className="vertical"
+      >
+        <button
+          className="cornerButton"
+          name="÷"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          className="cornerButton"
+          name="x"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+        <button
+          className="cornerButton"
+          name="-"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+        <button
+          className="cornerButton"
+          name="+"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+        <button
+          className="cornerButton"
+          name="="
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+      <div
+        className="inner-container"
+      >
+        <button
+          className="innerButton"
+          id="AC"
+          name="AC"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="innerButton"
+          id="+/-"
+          name="+/-"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="innerButton"
+          id="%"
+          name="%"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="innerButton"
+          id={9}
+          name={9}
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="innerButton"
+          id={8}
+          name={8}
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="innerButton"
+          id={7}
+          name={7}
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="innerButton"
+          id={6}
+          name={6}
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="innerButton"
+          id={5}
+          name={5}
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="innerButton"
+          id={4}
+          name={4}
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="innerButton"
+          id={3}
+          name={3}
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="innerButton"
+          id={2}
+          name={2}
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="innerButton"
+          id={1}
+          name={1}
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="innerButton"
+          id="zero"
+          name={0}
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="innerButton"
+          id="dot"
+          name="."
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Component test snapshot Router renders correctly 1`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Home
+</a>
+`;
+
 exports[`renders correctly 1`] = `
 <a
   aria-current="page"
