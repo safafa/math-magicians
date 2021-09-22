@@ -227,15 +227,3 @@ exports[`Component test snapshot Router renders correctly 1`] = `
   Home
 </a>
 `;
-
-exports[`renders correctly 1`] = `
-<a
-  aria-current="page"
-  className="active"
-  href="/"
-  onClick={[Function]}
-  style={Object {}}
->
-  Home
-</a>
-`;
