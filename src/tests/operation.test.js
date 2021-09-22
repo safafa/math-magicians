@@ -25,12 +25,16 @@ describe('operate function', () => {
 
 describe('Calculate function', () => {
   const obj = {
-    total: 0,
-    next: null,
-    operation: null,
+    total: 15,
+    next: 5,
+    operation: '+',
   };
 
   test('Clearing the screen', () => {
     expect({ ...calculate(obj, 'AC') }).toEqual({ total: 0, next: null, operation: null });
+  });
+
+  test('total the number', () => {
+    expect(calculate(obj, '=')).toEqual({ total: '20', next: null, operation: null });
   });
 });
