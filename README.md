@@ -37,7 +37,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Live Demo
 [Live link](https://safafa.github.io/math-magicians/)
-
+[Heroku link](https://math1magicians.herokuapp.com/calculator)
+[Netlify link](https://math1magicians.herokuapp.com/calculator)
 ## Author
 
 👤 **Safa Aballagh**
